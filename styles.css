@@ -1,95 +1,118 @@
 *{
-    margin:0;
-    padding:0;
-    box-sizing:border-box;
+margin:0;
+padding:0;
+box-sizing:border-box;
 }
 
 body{
-    font-family:'Poppins',sans-serif;
-    background:#FAF9F7;
-    color:#1E1E1E;
+font-family:'Poppins',sans-serif;
+background:#FAF9F7;
+color:#1E1E1E;
+overflow-x:hidden;
 }
 
 .hero{
-    min-height:100vh;
-    display:flex;
-    justify-content:center;
-    align-items:center;
-    padding:40px;
+min-height:100vh;
+display:flex;
+justify-content:center;
+align-items:center;
+position:relative;
+padding:40px;
+overflow:hidden;
+}
+
+.halo{
+position:absolute;
+width:700px;
+height:700px;
+background:radial-gradient(circle,rgba(214,184,115,.35) 0%,rgba(214,184,115,.08) 45%,transparent 75%);
+border-radius:50%;
+filter:blur(35px);
+top:-220px;
+left:50%;
+transform:translateX(-50%);
+z-index:0;
 }
 
 .hero-content{
-    max-width:900px;
-    text-align:center;
+position:relative;
+z-index:2;
+text-align:center;
+max-width:900px;
+}
+
+.mini{
+letter-spacing:8px;
+text-transform:uppercase;
+font-size:14px;
+color:#9b8b64;
+font-weight:600;
 }
 
 h1{
-    font-size:72px;
-    font-weight:700;
-    margin-bottom:20px;
-    letter-spacing:-2px;
+font-size:68px;
+line-height:1.08;
+margin-top:25px;
+margin-bottom:25px;
+font-weight:700;
 }
 
-.frase{
-    font-size:24px;
-    color:#555;
-    max-width:700px;
-    margin:auto;
-    line-height:1.7;
+p{
+font-size:24px;
+line-height:1.7;
+max-width:700px;
+margin:auto;
+color:#555;
 }
 
 .botones{
-    margin-top:50px;
-    display:flex;
-    justify-content:center;
-    gap:20px;
-    flex-wrap:wrap;
+margin-top:55px;
+display:flex;
+justify-content:center;
+gap:20px;
+flex-wrap:wrap;
 }
 
-.btn{
-    text-decoration:none;
-    padding:18px 36px;
-    border-radius:999px;
-    font-size:18px;
-    transition:.3s;
-    font-weight:600;
+.boton{
+padding:18px 38px;
+border-radius:999px;
+text-decoration:none;
+font-weight:600;
+transition:.3s;
 }
 
 .negro{
-    background:#111;
-    color:white;
-}
-
-.negro:hover{
-    transform:translateY(-3px);
+background:#111;
+color:white;
 }
 
 .blanco{
-    background:white;
-    color:#111;
-    border:1px solid #ddd;
+background:white;
+color:#111;
+border:1px solid #ddd;
 }
 
-.blanco:hover{
-    transform:translateY(-3px);
+.boton:hover{
+transform:translateY(-4px);
+box-shadow:0 15px 35px rgba(0,0,0,.12);
 }
 
 @media(max-width:768px){
 
 h1{
-    font-size:48px;
+font-size:42px;
 }
 
-.frase{
-    font-size:20px;
-}
-
-.btn{
-    width:100%;
+p{
+font-size:20px;
 }
 
 .botones{
-    flex-direction:column;
+flex-direction:column;
+}
+
+.boton{
+width:100%;
 }
 
 }
