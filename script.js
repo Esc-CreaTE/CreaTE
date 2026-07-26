@@ -1,14 +1,18 @@
-document.addEventListener("DOMContentLoaded", () => {
+document.addEventListener("DOMContentLoaded",()=>{
 
-    const hero = document.querySelector(".hero-content");
+const hero=document.querySelector(".hero-content");
 
-    hero.style.opacity = "0";
-    hero.style.transform = "translateY(40px)";
+hero.style.opacity="0";
+hero.style.transform="translateY(40px)";
 
-    setTimeout(() => {
-        hero.style.transition = "all 1s ease";
-        hero.style.opacity = "1";
-        hero.style.transform = "translateY(0)";
-    }, 200);
+setTimeout(()=>{
+
+hero.style.transition="all 1s ease";
+
+hero.style.opacity="1";
+
+hero.style.transform="translateY(0)";
+
+},200);
 
 });
