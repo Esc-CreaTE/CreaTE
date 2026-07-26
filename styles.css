@@ -1,0 +1,95 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    font-family:'Poppins',sans-serif;
+    background:#FAF9F7;
+    color:#1E1E1E;
+}
+
+.hero{
+    min-height:100vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    padding:40px;
+}
+
+.hero-content{
+    max-width:900px;
+    text-align:center;
+}
+
+h1{
+    font-size:72px;
+    font-weight:700;
+    margin-bottom:20px;
+    letter-spacing:-2px;
+}
+
+.frase{
+    font-size:24px;
+    color:#555;
+    max-width:700px;
+    margin:auto;
+    line-height:1.7;
+}
+
+.botones{
+    margin-top:50px;
+    display:flex;
+    justify-content:center;
+    gap:20px;
+    flex-wrap:wrap;
+}
+
+.btn{
+    text-decoration:none;
+    padding:18px 36px;
+    border-radius:999px;
+    font-size:18px;
+    transition:.3s;
+    font-weight:600;
+}
+
+.negro{
+    background:#111;
+    color:white;
+}
+
+.negro:hover{
+    transform:translateY(-3px);
+}
+
+.blanco{
+    background:white;
+    color:#111;
+    border:1px solid #ddd;
+}
+
+.blanco:hover{
+    transform:translateY(-3px);
+}
+
+@media(max-width:768px){
+
+h1{
+    font-size:48px;
+}
+
+.frase{
+    font-size:20px;
+}
+
+.btn{
+    width:100%;
+}
+
+.botones{
+    flex-direction:column;
+}
+
+}
