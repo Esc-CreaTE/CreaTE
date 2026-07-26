@@ -25,7 +25,7 @@ overflow:hidden;
 position:absolute;
 width:700px;
 height:700px;
-background:radial-gradient(circle,rgba(214,184,115,.35) 0%,rgba(214,184,115,.08) 45%,transparent 75%);
+background:radial-gradient(circle,rgba(212,175,55,.45) 0%,rgba(212,175,55,.18) 35%,transparent 72%);
 border-radius:50%;
 filter:blur(35px);
 top:-220px;
@@ -38,7 +38,7 @@ z-index:0;
 position:relative;
 z-index:2;
 text-align:center;
-max-width:900px;
+max-width:980px;
 }
 
 .mini{
@@ -50,7 +50,7 @@ font-weight:600;
 }
 
 h1{
-font-size:68px;
+font-size:72px;
 line-height:1.08;
 margin-top:25px;
 margin-bottom:25px;
