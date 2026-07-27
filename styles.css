@@ -331,3 +331,46 @@ font-weight:700;
 letter-spacing:2px;
 
 }
+.intro-cards{
+
+max-width:750px;
+
+margin:0 auto 70px;
+
+text-align:center;
+
+}
+
+.mini-title{
+
+letter-spacing:5px;
+
+font-size:12px;
+
+font-weight:700;
+
+color:#b89d5f;
+
+margin-bottom:18px;
+
+}
+
+.intro-cards h2{
+
+font-size:46px;
+
+line-height:1.2;
+
+margin-bottom:18px;
+
+}
+
+.intro-cards p{
+
+font-size:20px;
+
+color:#666;
+
+line-height:1.7;
+
+}
