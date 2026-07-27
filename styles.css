@@ -253,7 +253,9 @@ border:1px solid rgba(0,0,0,.04);
 
 .card:hover{
 
-transform:translateY(-8px);
+transform:translateY(-12px) scale(1.02);
+
+box-shadow:0 45px 90px rgba(0,0,0,.12);
 
 }
 
@@ -297,6 +299,35 @@ line-height:1.6;
 
 .premium{
 
-border:2px solid #d4af37;
+border:2px solid #D6B873;
+
+position:relative;
+
+overflow:hidden;
+
+}
+.premium::before{
+
+content:"RECOMENDADO";
+
+position:absolute;
+
+top:20px;
+
+right:-40px;
+
+background:#D6B873;
+
+color:white;
+
+padding:8px 45px;
+
+transform:rotate(35deg);
+
+font-size:12px;
+
+font-weight:700;
+
+letter-spacing:2px;
 
 }
