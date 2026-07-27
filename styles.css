@@ -429,3 +429,56 @@ font-size:30px;
 vertical-align:middle;
 
 }
+html{
+scroll-behavior:smooth;
+}
+
+.navbar{
+
+position:fixed;
+
+top:0;
+
+left:0;
+
+width:100%;
+
+padding:22px 60px;
+
+display:flex;
+
+justify-content:space-between;
+
+align-items:center;
+
+background:rgba(250,249,247,.75);
+
+backdrop-filter:blur(14px);
+
+z-index:999;
+
+border-bottom:1px solid rgba(0,0,0,.05);
+
+}
+
+.logo{
+
+font-size:26px;
+
+font-weight:700;
+
+letter-spacing:1px;
+
+}
+
+.logo span{
+
+color:#D6B873;
+
+}
+
+.hero{
+
+padding-top:120px;
+
+}
