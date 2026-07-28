@@ -482,3 +482,30 @@ color:#D6B873;
 padding-top:120px;
 
 }
+.contacto{
+
+padding:140px 30px;
+
+text-align:center;
+
+background:white;
+
+}
+
+.contacto h2{
+
+font-size:50px;
+
+margin:20px 0;
+
+}
+
+.contacto p{
+
+max-width:700px;
+
+margin:auto;
+
+margin-bottom:40px;
+
+}
