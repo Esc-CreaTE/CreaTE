@@ -641,3 +641,44 @@ color:#777;
 margin:0;
 
 }
+.confirmacion{
+
+padding:90px 30px 120px;
+
+text-align:center;
+
+max-width:800px;
+
+margin:0 auto;
+
+}
+
+.confirmacion h2{
+
+font-size:42px;
+
+margin:20px 0;
+
+color:#111;
+
+}
+
+.confirmacion p{
+
+font-size:20px;
+
+line-height:1.8;
+
+color:#666;
+
+margin-bottom:40px;
+
+}
+
+.confirmacion .boton{
+
+display:inline-block;
+
+padding:18px 45px;
+
+}
