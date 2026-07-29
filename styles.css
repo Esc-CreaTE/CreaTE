@@ -622,48 +622,22 @@ margin-bottom:40px;
 }
 .footer{
 
-padding:120px 30px;
+padding:35px 20px;
 
 text-align:center;
 
-background:#111;
+border-top:1px solid #e8e8e8;
 
-color:white;
-
-}
-
-.footer h2{
-
-font-size:42px;
-
-margin-bottom:20px;
+background:#FAF9F7;
 
 }
 
 .footer p{
 
-color:#cfcfcf;
+font-size:15px;
 
-max-width:700px;
+color:#777;
 
-margin:0 auto 35px;
-
-font-size:20px;
-
-}
-
-.footer .boton{
-
-display:inline-block;
-
-margin-bottom:45px;
-
-}
-
-.copyright{
-
-font-size:14px;
-
-color:#888;
+margin:0;
 
 }
