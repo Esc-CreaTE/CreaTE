@@ -682,9 +682,9 @@ background:#fff;
 
 .faq .contenedor{
 
-max-width:900px;
+max-width:1000px;
 
-margin:auto;
+margin:0 auto;
 
 }
 
@@ -710,9 +710,13 @@ color:#111;
 
 .faq-item{
 
+max-width:820px;
+
+margin:0 auto;
+
 border-bottom:1px solid #ececec;
 
-padding:22px 0;
+padding:26px 0;
 
 }
 
