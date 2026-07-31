@@ -797,76 +797,127 @@ font-size:20px;
 font-size:17px;
 
 }
+/* ===========================
+   MI HISTORIA
+=========================== */
 
-/*==============================
-POR QUÉ EXISTE CreaTE
-==============================*/
+.mi-historia{
 
-.historia{
+max-width:1200px;
 
-padding:120px 30px;
+margin:180px auto;
 
-background:#faf9f7;
+padding:0 40px;
 
 }
 
-.historia h2{
+.mi-historia .mini-title{
 
 text-align:center;
 
-font-size:46px;
+letter-spacing:5px;
 
-margin-top:12px;
+font-size:12px;
 
-margin-bottom:90px;
-
-}
-
-.camino{
-
-max-width:1000px;
-
-margin:auto;
-
-}
-
-.etapa{
-
-width:48%;
-
-position:relative;
-
-margin-bottom:90px;
-
-}
-
-.etapa.izquierda{
-
-margin-right:auto;
-
-}
-
-.etapa.derecha{
-
-margin-left:auto;
-
-}
-
-.numero{
-
-font-size:15px;
-
-letter-spacing:3px;
-
-font-weight:700;
-
-color:#D4AF37;
+color:#b7924a;
 
 margin-bottom:18px;
 
 }
 
-.etapa h3{
+.mi-historia h2{
+
+text-align:center;
+
+font-size:50px;
+
+font-weight:600;
+
+line-height:1.2;
+
+margin-bottom:110px;
+
+color:#111;
+
+}
+
+.camino{
+
+position:relative;
+
+}
+
+.paso{
+
+display:flex;
+
+align-items:center;
+
+margin-bottom:140px;
+
+}
+
+.paso.izquierda{
+
+justify-content:flex-start;
+
+}
+
+.paso.derecha{
+
+justify-content:flex-end;
+
+}
+
+.foto{
+
+width:180px;
+
+height:220px;
+
+background:#f3f3f3;
+
+border-radius:12px;
+
+box-shadow:0 20px 40px rgba(0,0,0,.12);
+
+margin-right:45px;
+
+flex-shrink:0;
+
+}
+
+.paso.derecha .foto{
+
+order:2;
+
+margin-right:0;
+
+margin-left:45px;
+
+}
+
+.contenido{
+
+width:420px;
+
+}
+
+.numero{
+
+display:block;
+
+font-size:34px;
+
+font-weight:700;
+
+color:#b7924a;
+
+margin-bottom:12px;
+
+}
+
+.contenido h3{
 
 font-size:34px;
 
@@ -874,68 +925,14 @@ margin-bottom:22px;
 
 color:#111;
 
-line-height:1.2;
-
 }
 
-.etapa p{
+.contenido p{
 
-font-size:19px;
+font-size:20px;
 
 line-height:1.9;
 
 color:#666;
-
-margin-bottom:16px;
-
-}
-
-.curva{
-
-height:90px;
-
-width:50%;
-
-border-top:2px solid #D4AF37;
-
-margin-bottom:70px;
-
-}
-
-.curva.derecha{
-
-margin-left:48%;
-
-border-right:2px solid #D4AF37;
-
-border-top-right-radius:80px;
-
-}
-
-.curva.izquierda{
-
-margin-right:48%;
-
-border-left:2px solid #D4AF37;
-
-border-top-left-radius:80px;
-
-}
-
-.frase-final{
-
-text-align:center;
-
-font-size:24px;
-
-line-height:1.8;
-
-font-weight:500;
-
-max-width:850px;
-
-margin:70px auto 0;
-
-color:#222;
 
 }
