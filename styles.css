@@ -799,3 +799,153 @@ font-size:17px;
 }
 
 }
+/* ===========================
+   MI CAMINO
+=========================== */
+
+.historia{
+
+padding:120px 30px;
+
+background:#FAF9F7;
+
+}
+
+.camino{
+
+max-width:1000px;
+
+margin:70px auto 0;
+
+position:relative;
+
+}
+
+.etapa{
+
+width:48%;
+
+margin-bottom:80px;
+
+}
+
+.izquierda{
+
+margin-right:auto;
+
+text-align:left;
+
+}
+
+.derecha{
+
+margin-left:auto;
+
+text-align:left;
+
+}
+
+.contenido{
+
+background:white;
+
+padding:38px;
+
+border-radius:28px;
+
+box-shadow:0 20px 50px rgba(0,0,0,.06);
+
+border:1px solid rgba(0,0,0,.05);
+
+transition:.3s;
+
+}
+
+.contenido:hover{
+
+transform:translateY(-6px);
+
+box-shadow:0 30px 60px rgba(0,0,0,.10);
+
+}
+
+.contenido h3{
+
+font-size:32px;
+
+margin-bottom:20px;
+
+color:#111;
+
+}
+
+.contenido p{
+
+font-size:18px;
+
+line-height:1.8;
+
+margin-bottom:14px;
+
+color:#666;
+
+max-width:100%;
+
+}
+
+.linea{
+
+width:3px;
+
+height:90px;
+
+background:#D6B873;
+
+margin:0 auto 40px;
+
+border-radius:999px;
+
+}
+
+@media(max-width:768px){
+
+.etapa{
+
+width:100%;
+
+margin-bottom:45px;
+
+}
+
+.izquierda,
+.derecha{
+
+margin:0;
+
+}
+
+.linea{
+
+height:50px;
+
+}
+
+.contenido{
+
+padding:28px;
+
+}
+
+.contenido h3{
+
+font-size:26px;
+
+}
+
+.contenido p{
+
+font-size:17px;
+
+}
+
+}
