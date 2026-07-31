@@ -797,142 +797,123 @@ font-size:20px;
 font-size:17px;
 
 }
-/* ===========================
-   MI HISTORIA
-=========================== */
+/*====================================
+          MI HISTORIA
+====================================*/
 
 .mi-historia{
 
-max-width:1200px;
+    max-width:1200px;
 
-margin:180px auto;
+    margin:170px auto;
 
-padding:0 40px;
+    padding:0 40px;
 
 }
 
 .mi-historia .mini-title{
 
-text-align:center;
+    text-align:center;
 
-letter-spacing:5px;
+    font-size:12px;
 
-font-size:12px;
+    letter-spacing:4px;
 
-color:#b7924a;
+    color:#c7a25b;
 
-margin-bottom:18px;
+    margin-bottom:18px;
 
 }
 
 .mi-historia h2{
 
-text-align:center;
+    text-align:center;
 
-font-size:50px;
+    font-size:54px;
 
-font-weight:600;
+    line-height:1.15;
 
-line-height:1.2;
+    font-weight:500;
 
-margin-bottom:110px;
+    color:#222;
 
-color:#111;
-
-}
-
-.camino{
-
-position:relative;
+    margin-bottom:90px;
 
 }
+   .timeline{
 
-.paso{
+    display:grid;
 
-display:flex;
+    grid-template-columns:1fr 1fr;
 
-align-items:center;
+    column-gap:120px;
 
-margin-bottom:140px;
+    row-gap:120px;
 
-}
-
-.paso.izquierda{
-
-justify-content:flex-start;
+    position:relative;
 
 }
+   .foto{
 
-.paso.derecha{
+    width:180px;
 
-justify-content:flex-end;
+    height:220px;
 
-}
+    background:#efefef;
 
-.foto{
+    border-radius:10px;
 
-width:180px;
-
-height:220px;
-
-background:#f3f3f3;
-
-border-radius:12px;
-
-box-shadow:0 20px 40px rgba(0,0,0,.12);
-
-margin-right:45px;
-
-flex-shrink:0;
+    box-shadow:0 18px 40px rgba(0,0,0,.12);
 
 }
+   .bloque h3{
 
-.paso.derecha .foto{
+    font-size:36px;
 
-order:2;
+    margin:12px 0 18px;
 
-margin-right:0;
-
-margin-left:45px;
-
-}
-
-.contenido{
-
-width:420px;
+    color:#222;
 
 }
 
 .numero{
 
-display:block;
+    width:42px;
 
-font-size:34px;
+    height:42px;
 
-font-weight:700;
+    display:flex;
 
-color:#b7924a;
+    justify-content:center;
 
-margin-bottom:12px;
+    align-items:center;
+
+    border-radius:50%;
+
+    background:#c7a25b;
+
+    color:white;
+
+    font-weight:700;
+
+    font-size:18px;
 
 }
 
-.contenido h3{
+.bloque ul{
 
-font-size:34px;
+    margin-top:18px;
 
-margin-bottom:22px;
-
-color:#111;
+    padding-left:18px;
 
 }
 
-.contenido p{
+.bloque li{
 
-font-size:20px;
+    margin-bottom:12px;
 
-line-height:1.9;
+    line-height:1.8;
 
-color:#666;
+    color:#555;
 
 }
