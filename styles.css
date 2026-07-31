@@ -798,16 +798,27 @@ font-size:17px;
 
 }
 
-}
-/* ===========================
-   MI CAMINO
-=========================== */
+/*==============================
+POR QUÉ EXISTE CreaTE
+==============================*/
 
 .historia{
 
 padding:120px 30px;
 
-background:#FAF9F7;
+background:#faf9f7;
+
+}
+
+.historia h2{
+
+text-align:center;
+
+font-size:46px;
+
+margin-top:12px;
+
+margin-bottom:90px;
 
 }
 
@@ -815,9 +826,7 @@ background:#FAF9F7;
 
 max-width:1000px;
 
-margin:70px auto 0;
-
-position:relative;
+margin:auto;
 
 }
 
@@ -825,127 +834,108 @@ position:relative;
 
 width:48%;
 
-margin-bottom:80px;
+position:relative;
+
+margin-bottom:90px;
 
 }
 
-.izquierda{
+.etapa.izquierda{
 
 margin-right:auto;
 
-text-align:left;
-
 }
 
-.derecha{
+.etapa.derecha{
 
 margin-left:auto;
 
-text-align:left;
+}
+
+.numero{
+
+font-size:15px;
+
+letter-spacing:3px;
+
+font-weight:700;
+
+color:#D4AF37;
+
+margin-bottom:18px;
 
 }
 
-.contenido{
+.etapa h3{
 
-background:white;
+font-size:34px;
 
-padding:38px;
-
-border-radius:28px;
-
-box-shadow:0 20px 50px rgba(0,0,0,.06);
-
-border:1px solid rgba(0,0,0,.05);
-
-transition:.3s;
-
-}
-
-.contenido:hover{
-
-transform:translateY(-6px);
-
-box-shadow:0 30px 60px rgba(0,0,0,.10);
-
-}
-
-.contenido h3{
-
-font-size:32px;
-
-margin-bottom:20px;
+margin-bottom:22px;
 
 color:#111;
 
+line-height:1.2;
+
 }
 
-.contenido p{
+.etapa p{
 
-font-size:18px;
+font-size:19px;
 
-line-height:1.8;
-
-margin-bottom:14px;
+line-height:1.9;
 
 color:#666;
 
-max-width:100%;
+margin-bottom:16px;
 
 }
 
-.linea{
-
-width:3px;
+.curva{
 
 height:90px;
 
-background:#D6B873;
+width:50%;
 
-margin:0 auto 40px;
+border-top:2px solid #D4AF37;
 
-border-radius:999px;
-
-}
-
-@media(max-width:768px){
-
-.etapa{
-
-width:100%;
-
-margin-bottom:45px;
+margin-bottom:70px;
 
 }
 
-.izquierda,
-.derecha{
+.curva.derecha{
 
-margin:0;
+margin-left:48%;
 
-}
+border-right:2px solid #D4AF37;
 
-.linea{
-
-height:50px;
+border-top-right-radius:80px;
 
 }
 
-.contenido{
+.curva.izquierda{
 
-padding:28px;
+margin-right:48%;
 
-}
+border-left:2px solid #D4AF37;
 
-.contenido h3{
-
-font-size:26px;
+border-top-left-radius:80px;
 
 }
 
-.contenido p{
+.frase-final{
 
-font-size:17px;
+text-align:center;
 
-}
+font-size:24px;
+
+line-height:1.8;
+
+font-weight:500;
+
+max-width:850px;
+
+margin:70px auto 0;
+
+color:#222;
 
 }
