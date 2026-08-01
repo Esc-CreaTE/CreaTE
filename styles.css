@@ -830,14 +830,20 @@ font-size:17px;
    transition:all .35s ease;
 cursor:default;
 }
-
+.paso:hover{
+    transform:translateY(-10px) scale(1.03);
+}
 .numero{
     font-size:14px;
     color:#b68b3c;
     font-weight:700;
     margin-bottom:12px;
+   transition:.35s;
 }
-
+.paso:hover .numero{
+    transform:scale(1.25);
+    color:#CDA349;
+}
 .paso h3{
     font-size:32px;
     margin-bottom:18px;
