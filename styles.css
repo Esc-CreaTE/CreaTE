@@ -884,5 +884,7 @@ font-size:17px;
 
 .paso{
     position:absolute;
-    z-index:2;
+    z-index:10;
+    background:#FAF9F7;
+    padding:8px 12px;
 }
