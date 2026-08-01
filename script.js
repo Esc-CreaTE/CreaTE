@@ -16,3 +16,34 @@ hero.style.transform="translateY(0)";
 },200);
 
 });
+// ==========================
+// Animación historia
+// ==========================
+
+const pasos = document.querySelectorAll(".paso");
+
+const observer = new IntersectionObserver((entries)=>{
+
+    entries.forEach(entry=>{
+
+        if(entry.isIntersecting){
+
+            entry.target.classList.add("visible");
+
+        }
+
+    });
+
+},{
+    threshold:0.3
+});
+
+pasos.forEach((paso,i)=>{
+
+    setTimeout(()=>{
+
+        observer.observe(paso);
+
+    },i*250);
+
+});
