@@ -821,8 +821,7 @@ font-size:17px;
 
 .camino{
     position:relative;
-    min-height:900px;
-    isolation:isolate;
+    min-height:1300px;
 }
 
 .paso{
