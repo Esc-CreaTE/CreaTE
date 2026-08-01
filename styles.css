@@ -827,6 +827,8 @@ font-size:17px;
 .paso{
     position:absolute;
     width:330px;
+   transition:all .35s ease;
+cursor:default;
 }
 
 .numero{
