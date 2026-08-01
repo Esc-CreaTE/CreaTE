@@ -887,3 +887,26 @@ font-size:17px;
     background:#FAF9F7;
     padding:8px 12px;
 }
+.historia-final{
+    margin-top:120px;
+    text-align:center;
+}
+
+.historia-final .icono{
+    font-size:34px;
+    margin-bottom:18px;
+}
+
+.historia-final p:first-of-type{
+    font-size:28px;
+    font-weight:600;
+    color:#222;
+    margin-bottom:12px;
+}
+
+.historia-final p:last-of-type{
+    font-size:20px;
+    color:#666;
+    max-width:700px;
+    margin:auto;
+}
