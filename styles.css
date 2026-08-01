@@ -798,39 +798,67 @@ font-size:17px;
 
 }
 .historia{
-
-    max-width:1100px;
-
+    max-width:1200px;
     margin:160px auto;
-
     padding:0 40px;
-
 }
 
 .historia .mini-title{
-
     text-align:center;
-
+    letter-spacing:5px;
     font-size:12px;
-
-    letter-spacing:4px;
-
-    color:#c8a25a;
-
-    margin-bottom:18px;
-
+    color:#b68b3c;
+    margin-bottom:20px;
 }
 
 .historia h2{
-
     text-align:center;
-
     font-size:52px;
-
-    line-height:1.2;
-
-    color:#111;
-
+    line-height:1.15;
     margin-bottom:100px;
+}
 
+.camino{
+    position:relative;
+    min-height:900px;
+}
+
+.paso{
+    position:absolute;
+    width:330px;
+}
+
+.numero{
+    font-size:14px;
+    color:#b68b3c;
+    font-weight:700;
+    margin-bottom:12px;
+}
+
+.paso h3{
+    font-size:32px;
+    margin-bottom:18px;
+}
+
+.paso p{
+    font-size:18px;
+    line-height:1.9;
+    color:#555;
+}
+
+/* POSICIONES */
+
+.paso1{
+    left:0;
+    top:0;
+}
+
+.paso2{
+    right:0;
+    top:260px;
+}
+
+.paso3{
+    left:120px;
+    top:610px;
 }
