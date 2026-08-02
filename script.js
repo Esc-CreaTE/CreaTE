@@ -47,3 +47,26 @@ pasos.forEach((paso,i)=>{
     },i*250);
 
 });
+// ==========================
+// Dibujar camino
+// ==========================
+
+const camino = document.querySelector(".linea-camino");
+
+const caminoObserver = new IntersectionObserver((entries)=>{
+
+    entries.forEach(entry=>{
+
+        if(entry.isIntersecting){
+
+            camino.classList.add("visible");
+
+        }
+
+    });
+
+},{
+    threshold:0.15
+});
+
+caminoObserver.observe(document.querySelector(".camino"));
