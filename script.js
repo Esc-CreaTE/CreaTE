@@ -45,8 +45,6 @@ pasos.forEach((paso,i)=>{
         observer.observe(paso);
 
     },i*250);
-
-});
 // ==========================
 // Dibujar camino
 // ==========================
@@ -70,3 +68,5 @@ const caminoObserver = new IntersectionObserver((entries)=>{
 });
 
 caminoObserver.observe(document.querySelector(".camino"));
+});
+
