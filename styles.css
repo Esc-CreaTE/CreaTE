@@ -876,13 +876,29 @@ font-size:17px;
 }
 
 .linea-camino path{
-    fill:none;
-    stroke:#C9A24A;
-    stroke-width:2.5;
-    stroke-linecap:round;
-    stroke-linejoin:round;
-}
 
+    fill:none;
+
+    stroke:#C9A24A;
+
+    stroke-width:2.5;
+
+    stroke-linecap:round;
+
+    stroke-linejoin:round;
+
+    stroke-dasharray:2000;
+
+    stroke-dashoffset:2000;
+
+    transition:stroke-dashoffset 2.8s ease;
+
+}
+.linea-camino.visible path{
+
+    stroke-dashoffset:0;
+
+}
 
 .historia-final{
     margin-top:120px;
