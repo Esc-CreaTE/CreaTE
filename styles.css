@@ -824,12 +824,7 @@ font-size:17px;
     min-height:1300px;
 }
 
-.paso{
-    position:absolute;
-    width:330px;
-   transition:all .35s ease;
-cursor:default;
-}
+
 .paso:hover{
     transform:translateY(-10px) scale(1.03);
 }
@@ -888,12 +883,7 @@ cursor:default;
     stroke-linejoin:round;
 }
 
-.paso{
-    position:absolute;
-    z-index:10;
-    background:#FAF9F7;
-    padding:8px 12px;
-}
+
 .historia-final{
     margin-top:120px;
     text-align:center;
@@ -923,13 +913,25 @@ cursor:default;
 
 .paso{
 
+    position:absolute;
+
+    width:330px;
+
+    z-index:10;
+
+    background:#FAF9F7;
+
+    padding:8px 12px;
+
+    cursor:default;
+
     opacity:0;
 
     transform:translateY(60px);
 
     transition:
-        opacity .8s ease,
-        transform .8s ease;
+        opacity 1s ease,
+        transform 1s cubic-bezier(.22,1,.36,1);
 
 }
 
