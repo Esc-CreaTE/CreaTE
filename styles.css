@@ -891,7 +891,7 @@ font-size:17px;
 
     stroke-dashoffset:2000;
 
-    transition:stroke-dashoffset 2.8s ease;
+    transition:stroke-dashoffset 6s cubic-bezier(.22,1,.36,1);
 
 }
 .linea-camino.visible path{
