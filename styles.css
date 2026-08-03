@@ -835,15 +835,38 @@ font-size:17px;
 
 }
 .numero{
-    font-size:14px;
-    color:#b68b3c;
+
+    display:inline-flex;
+
+    align-items:center;
+
+    justify-content:center;
+
+    width:42px;
+
+    height:42px;
+
+    border-radius:50%;
+
+    background:#F8F2E4;
+
+    color:#C9A24A;
+
     font-weight:700;
-    margin-bottom:12px;
-   transition:.35s;
+
+    margin-bottom:18px;
+
+    transition:.35s;
+
 }
 .paso:hover .numero{
-    transform:scale(1.25);
-    color:#CDA349;
+
+    transform:scale(1.15);
+
+    background:#C9A24A;
+
+    color:white;
+
 }
 .paso h3{
 
