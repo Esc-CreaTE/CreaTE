@@ -831,7 +831,28 @@ font-size:17px;
 
     box-shadow:0 30px 70px rgba(0,0,0,.12);
 
-    border-color:rgba(201,162,74,.45);
+    border:1px solid rgba(201,162,74,.35);
+
+}
+.lista-paso li{
+
+    transition:all .35s ease;
+
+}
+
+.paso:hover .lista-paso li{
+
+    color:#333;
+
+}
+
+.paso:hover .lista-paso li::before{
+
+    transform:scale(1.35);
+
+    color:#D6B873;
+
+    text-shadow:0 0 10px rgba(214,184,115,.45);
 
 }
 .numero{
