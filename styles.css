@@ -846,8 +846,18 @@ font-size:17px;
     color:#CDA349;
 }
 .paso h3{
-    font-size:32px;
+
+    font-size:34px;
+
     margin-bottom:18px;
+
+    transition:.35s;
+
+}
+.paso:hover h3{
+
+    color:#C9A24A;
+
 }
 
 .paso p{
