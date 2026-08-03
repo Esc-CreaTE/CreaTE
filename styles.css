@@ -1006,3 +1006,44 @@ font-size:17px;
     transform:translateY(0);
 
 }
+.lista-paso{
+
+    list-style:none;
+
+    padding:0;
+
+    margin:0;
+
+}
+
+.lista-paso li{
+
+    position:relative;
+
+    padding-left:28px;
+
+    margin-bottom:18px;
+
+    line-height:1.9;
+
+    color:#555;
+
+}
+
+.lista-paso li::before{
+
+    content:"✦";
+
+    position:absolute;
+
+    left:0;
+
+    top:0;
+
+    color:#C9A24A;
+
+    font-size:14px;
+
+    font-weight:700;
+
+}
