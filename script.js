@@ -45,6 +45,11 @@ pasos.forEach((paso,i)=>{
         observer.observe(paso);
 
     },i*250);
+});
+
+const finalHistoria = document.querySelector(".historia-final");
+
+observer.observe(finalHistoria);
 // ==========================
 // Dibujar camino
 // ==========================
