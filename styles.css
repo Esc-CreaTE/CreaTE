@@ -1070,3 +1070,36 @@ font-size:17px;
     font-weight:700;
 
 }
+/* ===========================
+   FINAL HISTORIA
+=========================== */
+
+.historia-final{
+
+    opacity:0;
+
+    transform:translateY(40px);
+
+    transition:all 1.2s ease;
+
+}
+
+.historia-final.visible{
+
+    opacity:1;
+
+    transform:translateY(0);
+
+}
+
+.historia-final .icono{
+
+    transition:transform .8s ease;
+
+}
+
+.historia-final.visible .icono{
+
+    transform:scale(1.15);
+
+}
