@@ -1008,7 +1008,7 @@ font-size:17px;
 }
 .lista-paso{
 
-    list-style:none;
+    list-style:none !important;
 
     padding:0;
 
@@ -1017,7 +1017,9 @@ font-size:17px;
 }
 
 .lista-paso li{
-
+   
+    list-style:none;
+   
     position:relative;
 
     padding-left:28px;
