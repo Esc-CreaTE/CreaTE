@@ -1306,20 +1306,16 @@ font-size:17px;
     justify-content:center;
 }
 
-.frase-conector span{
-    width:38px;
-    height:38px;
+.frase-conector svg{
+    width:70px;
+    height:40px;
+    overflow:visible;
+}
 
-    border:1px solid #B89D5F;
-    border-radius:50%;
-
-    display:flex;
-    align-items:center;
-    justify-content:center;
-
-    color:#B89D5F;
-    font-size:16px;
-    font-weight:400;
-
-    line-height:1;
+.frase-conector path{
+    fill:none;
+    stroke:#B89D5F;
+    stroke-width:1.5;
+    stroke-linecap:round;
+    stroke-linejoin:round;
 }
