@@ -1178,45 +1178,47 @@ font-size:17px;
 
     background:white;
 
-}
-
 .frase-video-texto{
 
-    max-width:1050px;
+    max-width:900px;
 
-    margin:0 auto 70px;
+    margin:0 auto 55px;
 
     display:grid;
 
     grid-template-columns:1fr 1fr;
 
-    gap:80px;
+    gap:70px;
 
-    align-items:center;
+    align-items:end;
 
 }
 
 .frase-izquierda{
 
-    font-size:32px;
+    font-size:27px;
 
     line-height:1.35;
 
-    font-weight:600;
+    font-weight:500;
 
-    color:#222;
+    color:#333;
+
+    max-width:330px;
 
 }
 
 .frase-derecha{
 
-    font-size:30px;
+    font-size:25px;
 
     line-height:1.4;
 
     font-weight:500;
 
     color:#B89D5F;
+
+    max-width:330px;
 
 }
 
