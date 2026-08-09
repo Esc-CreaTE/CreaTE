@@ -1168,3 +1168,133 @@ font-size:17px;
     }
 
 }
+/* ===========================
+   FRASE + VÍDEO
+=========================== */
+
+.frase-video{
+
+    padding:120px 30px;
+
+    background:white;
+
+}
+
+.frase-video-texto{
+
+    max-width:1050px;
+
+    margin:0 auto 70px;
+
+    display:grid;
+
+    grid-template-columns:1fr 1fr;
+
+    gap:80px;
+
+    align-items:center;
+
+}
+
+.frase-izquierda{
+
+    font-size:32px;
+
+    line-height:1.35;
+
+    font-weight:600;
+
+    color:#222;
+
+}
+
+.frase-derecha{
+
+    font-size:30px;
+
+    line-height:1.4;
+
+    font-weight:500;
+
+    color:#B89D5F;
+
+}
+
+.video-contenedor{
+
+    max-width:1000px;
+
+    margin:auto;
+
+    position:relative;
+
+    aspect-ratio:16 / 9;
+
+    overflow:hidden;
+
+    border-radius:28px;
+
+    box-shadow:0 30px 80px rgba(0,0,0,.12);
+
+}
+
+.video-contenedor iframe{
+
+    position:absolute;
+
+    width:100%;
+
+    height:100%;
+
+    left:0;
+
+    top:0;
+
+    border:0;
+
+}
+
+
+/* ===========================
+   MÓVIL
+=========================== */
+
+@media(max-width:768px){
+
+    .frase-video{
+
+        padding:80px 20px;
+
+    }
+
+    .frase-video-texto{
+
+        grid-template-columns:1fr;
+
+        gap:18px;
+
+        margin-bottom:45px;
+
+        text-align:center;
+
+    }
+
+    .frase-izquierda{
+
+        font-size:27px;
+
+    }
+
+    .frase-derecha{
+
+        font-size:25px;
+
+    }
+
+    .video-contenedor{
+
+        border-radius:20px;
+
+    }
+
+}
