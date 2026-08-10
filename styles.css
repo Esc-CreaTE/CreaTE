@@ -666,6 +666,10 @@ margin-bottom:40px;
 
 }
 
+.footer-social i{
+    font-size:21px;
+}
+
 .footer-social a:hover{
 
     color:#b89b5e;
