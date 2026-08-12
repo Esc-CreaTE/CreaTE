@@ -151,7 +151,45 @@ botonAcercate.addEventListener("click", function(event) {
     }
 
 });
+const checkboxRindete = document.getElementById("acepta-rindete");
+const botonWiseRindete = document.getElementById("pago-wise-rindete");
+const botonPaypalRindete = document.getElementById("pago-paypal-rindete");
 
+checkboxRindete.addEventListener("change", function() {
+
+    if (this.checked) {
+
+        botonWiseRindete.classList.remove("disabled");
+        botonPaypalRindete.classList.remove("disabled");
+
+    } else {
+
+        botonWiseRindete.classList.add("disabled");
+        botonPaypalRindete.classList.add("disabled");
+
+    }
+
+});
+
+botonWiseRindete.addEventListener("click", function(event) {
+
+    if (!checkboxRindete.checked) {
+
+        event.preventDefault();
+
+    }
+
+});
+
+botonPaypalRindete.addEventListener("click", function(event) {
+
+    if (!checkboxRindete.checked) {
+
+        event.preventDefault();
+
+    }
+
+});
 </script>
 </body>
 
