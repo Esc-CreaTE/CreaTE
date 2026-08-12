@@ -743,16 +743,17 @@ margin-bottom:40px;
     color:#b89b5e;
 
 }
-
 .footer-copy{
 
     font-size:13px;
 
     color:#999;
 
-    margin:0;
+    margin:25px auto 0;
 
     text-align:center;
+
+    width:100%;
 
 }
 .confirmacion{
