@@ -112,6 +112,15 @@ transition:all .35s ease;
 cursor:pointer;
 
 }
+.boton.disabled{
+
+    opacity:0.45;
+
+    cursor:not-allowed;
+
+    pointer-events:none;
+
+}
 
 .negro{
 
