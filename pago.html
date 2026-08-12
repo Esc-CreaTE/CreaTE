@@ -101,6 +101,36 @@ Acceder
 </a>
 
 </section>
+  <script>
+
+const checkboxAcercate = document.getElementById("acepta-acercate");
+const botonAcercate = document.getElementById("pago-acercate");
+
+checkboxAcercate.addEventListener("change", function() {
+
+    if (this.checked) {
+
+        botonAcercate.classList.remove("disabled");
+
+    } else {
+
+        botonAcercate.classList.add("disabled");
+
+    }
+
+});
+
+botonAcercate.addEventListener("click", function(event) {
+
+    if (!checkboxAcercate.checked) {
+
+        event.preventDefault();
+
+    }
+
+});
+
+</script>
 </body>
 
 </html>
