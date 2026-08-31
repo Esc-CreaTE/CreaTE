@@ -1448,3 +1448,14 @@ font-size:17px;
     stroke-linecap:round;
     stroke-linejoin:round;
 }
+.logo-hero{
+
+    width:90px;
+
+    height:auto;
+
+    display:block;
+
+    margin:0 auto 18px;
+
+}
