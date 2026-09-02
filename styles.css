@@ -768,6 +768,27 @@ margin-bottom:40px;
     width:100%;
 
 }
+.footer{
+    position:relative;
+    overflow:hidden;
+}
+
+.footer-watermark{
+    position:absolute;
+    width:500px;
+    height:auto;
+    left:50%;
+    top:50%;
+    transform:translate(-50%, -50%);
+    opacity:0.12;
+    z-index:0;
+    pointer-events:none;
+}
+
+.footer > *:not(.footer-watermark){
+    position:relative;
+    z-index:1;
+}
 .confirmacion{
 
 padding:0px 20px 80px;
