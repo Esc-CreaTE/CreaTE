@@ -775,7 +775,7 @@ margin-bottom:40px;
 
 .footer-watermark{
     position:absolute;
-    width:500px;
+    width:300px;
     height:auto;
     left:50%;
     top:50%;
@@ -785,7 +785,10 @@ margin-bottom:40px;
     pointer-events:none;
 }
 
-.footer > *:not(.footer-watermark){
+.footer-logo,
+.footer-social,
+.footer-links,
+.footer-copy{
     position:relative;
     z-index:1;
 }
