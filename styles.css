@@ -1122,8 +1122,10 @@ font-size:17px;
 }
 
 .historia-final{
-    margin-top:260px;
+    margin-top:420px;
     text-align:center;
+    position:relative;
+    z-index:2;
 }
 
 .historia-final .icono{
