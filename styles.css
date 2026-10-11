@@ -67,12 +67,21 @@ color:#9b8b64;
 font-weight:600;
 }
 
-h1{
+.hero-titulo{
 font-size:72px;
 line-height:1.08;
 margin-top:25px;
-margin-bottom:25px;
+margin-bottom:20px;
 font-weight:700;
+}
+
+.hero-subtitulo{
+font-size:20px;
+line-height:1.7;
+max-width:780px;
+margin:0 auto;
+color:#555;
+font-weight:400;
 }
 
 p{
