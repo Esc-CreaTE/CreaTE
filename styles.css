@@ -1437,3 +1437,134 @@ font-size:17px;
     margin:0 auto 22px;
 
 }
+
+/* DISTRIBUCIÓN QUÉ INCLUYE */
+
+.incluye-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 18px 22px;
+  margin-bottom: 25px;
+}
+
+.incluye-item {
+  display: flex;
+  align-items: flex-start;
+  gap: 13px;
+  padding: 20px;
+  background: #faf9f7;
+  border: 1px solid #eee9df;
+  border-radius: 15px;
+  text-align: left;
+  min-height: 85px;
+  box-sizing: border-box;
+}
+
+.incluye-item p {
+  font-size: 15px;
+  line-height: 1.6;
+  color: #444;
+  margin: 0;
+}
+
+.incluye-emoji {
+  font-size: 23px;
+  flex-shrink: 0;
+  line-height: 1.4;
+}
+
+/* BONUS */
+
+.bonus-card {
+  display: flex;
+  align-items: flex-start;
+  gap: 16px;
+  padding: 24px;
+  background: #fbf7ed;
+  border: 1px solid #e8d8b5;
+  border-radius: 16px;
+  text-align: left;
+  margin: 10px 0 35px;
+}
+
+.bonus-card p {
+  margin: 0;
+  font-size: 15px;
+  line-height: 1.7;
+  color: #555;
+}
+
+.bonus-card .bonus-titulo {
+  font-weight: 700;
+  color: #9b8350;
+  letter-spacing: 2px;
+  font-size: 12px;
+  margin-bottom: 5px;
+}
+
+/* PRECIO */
+
+.precio-final {
+  text-align: center;
+  padding: 30px 20px;
+  margin: 0 0 22px;
+  background: #faf9f7;
+  border-radius: 18px;
+  border: 1px solid #eee9df;
+}
+
+.precio-etiqueta {
+  font-size: 11px;
+  letter-spacing: 3px;
+  font-weight: 700;
+  color: #999;
+  margin: 0 0 8px;
+}
+
+.precio-numero {
+  font-size: 52px;
+  font-weight: 700;
+  color: #9b8350;
+  line-height: 1.2;
+}
+
+.precio-duracion {
+  font-size: 15px;
+  color: #777;
+  margin: 8px 0 0;
+}
+
+/* BOTÓN ÚNICO */
+
+.card > .boton.negro {
+  margin-top: 0;
+}
+
+/* MÓVIL */
+
+@media (max-width: 700px) {
+
+  .incluye-grid {
+    grid-template-columns: 1fr;
+    gap: 12px;
+  }
+
+  .incluye-item {
+    min-height: auto;
+    padding: 17px;
+  }
+
+  .bonus-card {
+    padding: 19px;
+  }
+
+  .precio-final {
+    padding: 25px 15px;
+  }
+
+  .precio-numero {
+    font-size: 44px;
+  }
+
+}
+
