@@ -425,6 +425,20 @@ html {
   scroll-behavior: smooth;
 }
 
+.lista-resultados li {
+  position: relative;
+  padding-left: 25px;
+}
+
+.lista-resultados li::before {
+  content: "◆";
+  position: absolute;
+  left: 0;
+  top: 2px;
+  color: #B89D5F;
+  font-size: 13px;
+}
+
 @media (max-width: 700px) {
 
   .planes {
