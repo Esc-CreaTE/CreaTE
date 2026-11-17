@@ -1,196 +1,328 @@
+
 <!DOCTYPE html>
 <html lang="es">
 
 <head>
 
 <meta charset="UTF-8">
-
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<title>Pago | CreaTE</title>
+<title>Accede a CreaTE | Pago</title>
 
 <link rel="stylesheet" href="styles.css">
+
+<style>
+
+/* PÁGINA DE PAGO */
+
+.pago-seccion {
+  padding: 90px 20px;
+  background: #faf9f7;
+  min-height: 75vh;
+}
+
+.logo-hero {
+  width: 100px;
+  height: auto;
+  margin-bottom: 25px;
+}
+
+.pago-card {
+  max-width: 650px;
+  margin: auto;
+  background: white;
+  padding: 50px;
+  border-radius: 25px;
+  border: 1px solid rgba(184,157,95,.25);
+  box-shadow: 0 25px 65px rgba(0,0,0,.07);
+  text-align: center;
+}
+
+.pago-card h3 {
+  font-size: 32px;
+  margin-bottom: 10px;
+  color: #171513;
+}
+
+.pago-descripcion {
+  color: #666;
+  font-size: 16px;
+  line-height: 1.7;
+  margin-bottom: 30px;
+}
+
+.pago-precio {
+  background: #faf9f7;
+  border: 1px solid #eee9df;
+  border-radius: 18px;
+  padding: 25px;
+  margin-bottom: 30px;
+}
+
+.pago-precio strong {
+  display: block;
+  font-size: 48px;
+  color: #9b8350;
+}
+
+.pago-precio span {
+  font-size: 15px;
+  color: #777;
+}
+
+.aceptacion {
+  display: flex;
+  align-items: flex-start;
+  gap: 12px;
+  text-align: left;
+  font-size: 14px;
+  line-height: 1.7;
+  color: #555;
+  margin: 25px 0;
+}
+
+.aceptacion input {
+  margin-top: 5px;
+  flex-shrink: 0;
+  accent-color: #b89d5f;
+}
+
+.aceptacion a {
+  color: #9b8350;
+  text-decoration: underline;
+}
+
+.metodos-pago {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+
+.boton-pago {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  box-sizing: border-box;
+  padding: 19px;
+  border-radius: 12px;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 16px;
+  transition: .3s ease;
+}
+
+.boton-wise {
+  background: #171513;
+  color: white;
+}
+
+.boton-paypal {
+  background: white;
+  color: #171513;
+  border: 1px solid #ddd;
+}
+
+.boton-pago:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 10px 25px rgba(0,0,0,.08);
+}
+
+.boton-pago.disabled {
+  opacity: .4;
+  pointer-events: none;
+  cursor: not-allowed;
+}
+
+.confirmacion {
+  padding: 65px 20px;
+  text-align: center;
+  background: white;
+}
+
+.confirmacion h2 {
+  font-size: 30px;
+  margin-bottom: 25px;
+}
+
+@media (max-width: 600px) {
+
+  .pago-seccion {
+    padding: 60px 15px;
+  }
+
+  .pago-card {
+    padding: 32px 22px;
+  }
+
+  .pago-card h3 {
+    font-size: 27px;
+  }
+
+  .pago-precio strong {
+    font-size: 42px;
+  }
+
+}
+
+</style>
 
 </head>
 
 <body>
 
-<section class="planes">
+<section class="planes pago-seccion">
 
-<div class="intro-cards">
-<img src="MI LOGO transparente.png" alt="CreaTE" class="logo-hero">
-<p class="mini-title">
-YA CASI ESTÁS DENTRO
-</p>
+  <div class="intro-cards">
 
-<h2>
-Elige cómo quieres pagar
-</h2>
+    <img
+      src="MI LOGO transparente.png"
+      alt="CreaTE"
+      class="logo-hero"
+    >
 
-<p>
-Selecciona el programa que quieres comenzar y el método de pago que prefieras.
-</p>
+    <p class="mini-title">
+      YA CASI ESTÁS DENTRO
+    </p>
 
-</div>
+    <h2>
+      Tu siguiente paso empieza aquí.
+    </h2>
 
-<div class="cards">
+    <p>
+      Estás a un paso de comenzar a construir junto a Dios.
+    </p>
 
-<div class="card">
+  </div>
 
-<h3>🕊 AcércaTE</h3>
 
-<p class="precio">77 €/mes</p>
+  <div class="pago-card">
 
-<br>
+    <p class="fase">PROGRAMA CREA TE · 3 MESES</p>
 
-<label class="aceptacion">
-<input type="checkbox" id="acepta-acercate">
-<span>
-He leído y acepto las
-<a href="condiciones-servicio.html" target="_blank">Condiciones del Servicio</a>
-y la
-<a href="política-privacidad.html" target="_blank">Política de Privacidad</a>.
-</span>
-</label>
+    <h3>✦ CreaTE</h3>
 
-<br>
+    <p class="pago-descripcion">
+      Tu acceso al programa completo durante tres meses.
+    </p>
 
-<a
-href="https://www.paypal.com/webapps/billing/plans/subscribe?plan_id=P-5SG36388CF647784GNJUNN7Q"
-class="boton blanco boton-pago disabled"
-id="pago-acercate"
->
-Pagar con PayPal o tarjeta
-</a>
 
-</div>
+    <div class="pago-precio">
 
-<div class="card premium">
+      <strong>417 €</strong>
 
-<h3>🕊 RíndeTE</h3>
+      <span>Acceso durante 3 meses</span>
 
-<p class="precio">647 €</p>
+    </div>
 
-<br>
 
-<label class="aceptacion">
-<input type="checkbox" id="acepta-rindete">
-<span>
-He leído y acepto las
-<a href="condiciones-servicio.html" target="_blank">Condiciones del Servicio</a>
-y la
-<a href="política-privacidad.html" target="_blank">Política de Privacidad</a>.
-</span>
-</label>
+    <label class="aceptacion">
 
-<br>
+      <input type="checkbox" id="acepta-condiciones">
 
-<a
-href="https://wise.com/pay/r/Xck0lmJP_BlX2aw"
-class="boton negro boton-pago disabled"
-id="pago-wise-rindete"
->
-Pagar con Wise
-</a>
+      <span>
+        He leído y acepto las
+        <a href="condiciones-servicio.html" target="_blank">
+          Condiciones del Servicio
+        </a>
+        y la
+        <a href="política-privacidad.html" target="_blank">
+          Política de Privacidad
+        </a>.
+      </span>
 
-<br><br>
+    </label>
 
-<a
-href="https://www.paypal.com/ncp/payment/XQ6HCV5CLCWM6"
-class="boton blanco boton-pago disabled"
-id="pago-paypal-rindete"
->
-Pagar con PayPal o tarjeta
-</a>
 
-</div>
+    <div class="metodos-pago">
 
-</div>
+      <a
+        href="https://wise.com/pay/r/1vdAQ30Lth6Vp6E"
+        class="boton-pago boton-wise disabled"
+        id="pago-wise"
+        target="_blank"
+        rel="noopener"
+      >
+        Pagar con Wise
+      </a>
+
+
+      <a
+        href="https://www.paypal.com/ncp/payment/7WGP42EZVNQY6"
+        class="boton-pago boton-paypal disabled"
+        id="pago-paypal"
+        target="_blank"
+        rel="noopener"
+      >
+        Pagar con PayPal o tarjeta
+      </a>
+
+    </div>
+
+  </div>
 
 </section>
+
+
 <section class="confirmacion">
 
-<p class="mini-title">
-ÚLTIMO PASO
-</p>
+  <p class="mini-title">
+    ÚLTIMO PASO
+  </p>
 
-<h2>
-¿Has realizado el pago?
-</h2>
+  <h2>
+    ¿Has realizado el pago?
+  </h2>
 
-<a href="gracias.html" class="boton negro">
-Acceder
-</a>
+  <a href="gracias.html" class="boton negro">
+    Acceder
+  </a>
 
 </section>
-  <script>
 
-const checkboxAcercate = document.getElementById("acepta-acercate");
-const botonAcercate = document.getElementById("pago-acercate");
 
-checkboxAcercate.addEventListener("change", function() {
+<script>
 
-    if (this.checked) {
+const checkbox = document.getElementById("acepta-condiciones");
 
-        botonAcercate.classList.remove("disabled");
+const botonesPago = [
+  document.getElementById("pago-wise"),
+  document.getElementById("pago-paypal")
+];
 
-    } else {
+checkbox.addEventListener("change", function() {
 
-        botonAcercate.classList.add("disabled");
+  botonesPago.forEach(function(boton) {
 
-    }
+    if (checkbox.checked) {
 
-});
-
-botonAcercate.addEventListener("click", function(event) {
-
-    if (!checkboxAcercate.checked) {
-
-        event.preventDefault();
-
-    }
-
-});
-const checkboxRindete = document.getElementById("acepta-rindete");
-const botonWiseRindete = document.getElementById("pago-wise-rindete");
-const botonPaypalRindete = document.getElementById("pago-paypal-rindete");
-
-checkboxRindete.addEventListener("change", function() {
-
-    if (this.checked) {
-
-        botonWiseRindete.classList.remove("disabled");
-        botonPaypalRindete.classList.remove("disabled");
+      boton.classList.remove("disabled");
 
     } else {
 
-        botonWiseRindete.classList.add("disabled");
-        botonPaypalRindete.classList.add("disabled");
+      boton.classList.add("disabled");
 
     }
 
+  });
+
 });
 
-botonWiseRindete.addEventListener("click", function(event) {
+botonesPago.forEach(function(boton) {
 
-    if (!checkboxRindete.checked) {
+  boton.addEventListener("click", function(event) {
 
-        event.preventDefault();
+    if (!checkbox.checked) {
+
+      event.preventDefault();
 
     }
 
-});
-
-botonPaypalRindete.addEventListener("click", function(event) {
-
-    if (!checkboxRindete.checked) {
-
-        event.preventDefault();
-
-    }
+  });
 
 });
+
 </script>
-</body>
 
+</body>
 </html>
