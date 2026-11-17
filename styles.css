@@ -261,202 +261,220 @@ font-size:19px;
 }
 
 }
-.planes{
 
-padding:120px 30px;
-
-background:#faf9f7;
-
-text-align:center;
-
+.planes {
+  padding: 110px 25px;
+  background: #faf9f7;
+  text-align: center;
 }
 
-.planes h2{
-
-font-size:52px;
-
-margin-bottom:60px;
-
+.intro-cards {
+  max-width: 780px;
+  margin: 0 auto 65px;
+  text-align: center;
 }
 
-.cards{
-
-display:flex;
-
-gap:35px;
-
-justify-content:center;
-
-align-items:stretch;
-
-flex-wrap:wrap;
-
-max-width:1200px;
-
-margin:auto;
-
+.mini-title {
+  letter-spacing: 5px;
+  font-size: 12px;
+  font-weight: 700;
+  color: #b89d5f;
+  margin-bottom: 20px;
 }
 
-.card{
-
-background:white;
-
-padding:55px;
-
-border-radius:30px;
-
-width:500px;
-
-box-shadow:0 30px 70px rgba(0,0,0,.07);
-
-transition:all .35s ease;
-
-border:1px solid rgba(0,0,0,.04);
-
-display:flex;
-
-flex-direction:column;
-
-height:100%;
-
+.intro-cards h2 {
+  font-size: clamp(36px, 5vw, 50px);
+  line-height: 1.2;
+  margin-bottom: 22px;
+  color: #171513;
 }
 
-.card:hover{
-
-transform:translateY(-12px) scale(1.02);
-
-box-shadow:0 45px 90px rgba(0,0,0,.12);
-
+.intro-cards p {
+  font-size: 19px;
+  color: #666;
+  line-height: 1.8;
 }
 
-.card h3{
-
-font-size:34px;
-
-margin-bottom:15px;
-
+.intro-cards .promesa-final {
+  color: #9b8350;
+  font-weight: 600;
+  margin-top: 18px;
 }
 
-.precio{
-
-font-size:28px;
-
-font-weight:700;
-
-margin-bottom:25px;
-
-color:#9b8b64;
-
+.cards {
+  display: flex;
+  justify-content: center;
+  align-items: stretch;
+  max-width: 1050px;
+  margin: auto;
 }
 
-.card ul{
-
-list-style:none;
-
-margin-bottom:35px;
-
+.card {
+  background: white;
+  padding: 55px 65px;
+  border-radius: 28px;
+  width: 100%;
+  max-width: 850px;
+  box-shadow: 0 30px 70px rgba(0,0,0,.07);
+  border: 1px solid rgba(184,157,95,.25);
+  display: flex;
+  flex-direction: column;
+  transition: all .35s ease;
 }
 
-.card li{
-
-margin-bottom:16px;
-
-font-size:19px;
-
-line-height:1.6;
-
+.card:hover {
+  transform: translateY(-7px);
+  box-shadow: 0 40px 85px rgba(0,0,0,.11);
 }
 
-.premium{
-
-border:2px solid #D6B873;
-
-position:relative;
-
-overflow:hidden;
-
-}
-.premium::before{
-
-content:"RECOMENDADO";
-
-position:absolute;
-
-top:20px;
-
-right:-40px;
-
-background:#D6B873;
-
-color:white;
-
-padding:8px 45px;
-
-transform:rotate(35deg);
-
-font-size:12px;
-
-font-weight:700;
-
-letter-spacing:2px;
-
-}
-.intro-cards{
-
-max-width:750px;
-
-margin:0 auto 70px;
-
-text-align:center;
-
+.fase {
+  color: #b89d5f;
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 4px;
+  margin-bottom: 20px;
 }
 
-.mini-title{
-
-letter-spacing:5px;
-
-font-size:12px;
-
-font-weight:700;
-
-color:#b89d5f;
-
-margin-bottom:18px;
-
+.card h3 {
+  font-size: 42px;
+  color: #171513;
+  margin-bottom: 20px;
 }
 
-.intro-cards h2{
-
-font-size:46px;
-
-line-height:1.2;
-
-margin-bottom:18px;
-
+.icono {
+  display: inline-block;
+  margin-right: 8px;
+  font-size: 32px;
+  color: #b89d5f;
 }
 
-.intro-cards p{
-
-font-size:20px;
-
-color:#666;
-
-line-height:1.7;
-
+.precio {
+  font-size: 36px;
+  font-weight: 700;
+  color: #9b8b64;
+  margin-bottom: 40px;
 }
-.icono{
 
-display:inline-block;
-
-margin-right:10px;
-
-font-size:30px;
-
-vertical-align:middle;
-
+.precio span {
+  font-size: 14px;
+  font-weight: 400;
+  color: #777;
 }
-html{
-scroll-behavior:smooth;
+
+.contenido-card {
+  text-align: left;
+}
+
+.subtitulo-card {
+  font-size: 20px;
+  font-weight: 700;
+  color: #171513;
+  margin-bottom: 24px;
+}
+
+.card ul {
+  list-style: none;
+  padding: 0;
+  margin: 0 0 38px;
+}
+
+.card li {
+  font-size: 17px;
+  line-height: 1.7;
+  color: #555;
+  margin-bottom: 18px;
+}
+
+.lista-resultados li {
+  padding-left: 2px;
+}
+
+.lista-incluye li {
+  padding-left: 2px;
+}
+
+.separador-card {
+  height: 1px;
+  width: 100%;
+  background: #eee9df;
+  margin: 10px 0 38px;
+}
+
+.boton.negro {
+  display: block;
+  width: 100%;
+  box-sizing: border-box;
+  padding: 20px 25px;
+  background: #171513;
+  color: white;
+  text-decoration: none;
+  text-align: center;
+  font-size: 16px;
+  font-weight: 600;
+  border-radius: 12px;
+  transition: all .3s ease;
+  margin-top: auto;
+}
+
+.boton.negro:hover {
+  background: #b89d5f;
+  transform: translateY(-3px);
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+@media (max-width: 700px) {
+
+  .planes {
+    padding: 75px 16px;
+  }
+
+  .intro-cards {
+    margin-bottom: 42px;
+  }
+
+  .intro-cards h2 {
+    font-size: 35px;
+  }
+
+  .intro-cards p {
+    font-size: 16px;
+  }
+
+  .card {
+    padding: 35px 23px;
+    border-radius: 22px;
+  }
+
+  .card h3 {
+    font-size: 35px;
+  }
+
+  .precio {
+    font-size: 31px;
+  }
+
+  .precio span {
+    display: block;
+    margin-top: 6px;
+  }
+
+  .subtitulo-card {
+    font-size: 18px;
+  }
+
+  .card li {
+    font-size: 15px;
+    line-height: 1.7;
+  }
+
+  .boton.negro {
+    font-size: 15px;
+    padding: 18px 12px;
+  }
+
 }
 
 .navbar{
